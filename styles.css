@@ -3,14 +3,16 @@
     background-color: #1F2937;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 /*Header Styling*/
-header{
+.header-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:10px;
+    flex: 1;
 }
 
 .logo{
@@ -26,4 +28,28 @@ header{
     font-weight: 300;
 }
 
-/**/
+/*Hero Section*/
+.hero-wrapper .hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-descrip{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 7px 20px 7px 20px;
+    border-radius: 8px;
+}
