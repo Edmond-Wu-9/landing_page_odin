@@ -31,12 +31,6 @@
 }
 
 /*Hero Section*/
-.hero-wrapper .hero-title{
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bold;
-}
-
 .hero-wrapper{
     display: flex;
     justify-content: space-between;
@@ -47,6 +41,12 @@
 
 .hero-heading{
     flex: 1;
+}
+
+.hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .hero-descrip{
