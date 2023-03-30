@@ -82,11 +82,9 @@ a{
 }
 
 /*Card section*/
-.card-seection{
+.card-section{
     background-color: #E5E7EB;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .card-section h1{
