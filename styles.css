@@ -43,7 +43,7 @@ a{
     justify-content: space-evenly;
     color: #E5E7EB;
     padding: 8px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 .hero-text{
@@ -82,8 +82,19 @@ a{
 }
 
 /*Card section*/
-.card-container{
+.card-seection{
     background-color: #E5E7EB;
     padding: 0;
     margin: 0;
+    padding-top: 20px;
+}
+
+.card-section h1{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
 }
