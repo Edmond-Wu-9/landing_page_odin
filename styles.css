@@ -98,6 +98,7 @@ a{
     gap: 20px;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .card-container img{
