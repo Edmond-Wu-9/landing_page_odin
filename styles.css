@@ -18,6 +18,7 @@ img{
     font-size: 24px;
     color: #E5E7EB;
     padding: 8px;
+    padding-bottom: 10px;
 }
 
 ul{
@@ -74,7 +75,7 @@ a{
 
 .img-container{
     width: 500px;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,12 +84,13 @@ a{
 
 /*Card section*/
 .card-section{
-    background-color: #E5E7EB;
-    padding-top: 30px;
+    background-color: #F9FAF8;
+    padding-top: 15px;
 }
 
 .card-section h1{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .card-container{
@@ -104,4 +106,18 @@ a{
     height: 300px;
     border-radius: 9px;
     outline: 3px solid #3882f6;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
