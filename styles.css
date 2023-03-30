@@ -1,9 +1,8 @@
 body{
-    background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 /*Header Styling*/
@@ -12,13 +11,13 @@ img{
     height: auto;
 }
 .header{
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content:space-between;
     font-size: 24px;
     color: #E5E7EB;
     padding: 8px;
-    margin-top: 10px;
 }
 
 ul{
@@ -38,11 +37,13 @@ a{
 
 /*Hero Content*/
 .hero{
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: #E5E7EB;
     padding: 8px;
+    padding-bottom: 50px;
 }
 
 .hero-text{
@@ -78,4 +79,11 @@ a{
     justify-content: center;
     align-items: center;
     background-color: grey;
+}
+
+/*Card section*/
+.card-container{
+    background-color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
