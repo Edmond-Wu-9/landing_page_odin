@@ -9,6 +9,8 @@
 ## Objective
 This project was given by the Odin Project as a way to express the learned knowledge of CSS and HTML. We were given a wireframe to use and the fonts and colors. There are a little bit of liberty as I changed some aspects of the wireframe. 
 
+*Note: This project was created for a website view. Mobile viewing will result in issues*
+
 ## Website URL
 https://edmond-wu-9.github.io/landing_page_odin/
 
